@@ -18,16 +18,18 @@ const $modal = inject('$modal')
     <!-- <main>
         <TheWelcome />
     </main> -->
-    <button @click="$modal.show('TestModal')">Open Modal</button>
-    <button @click="$modal.hide('TestModal')">Close Modal</button>
-    <Modal name="TestModal">
-        <h1>This is a test modal</h1>
-        <p>
-            lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum
-            lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum
-            lorum lorum
-        </p>
-    </Modal>
+    <main>
+      <button @click="$modal.show('TestModal')">Open Modal</button>
+      <button @click="$modal.hide('TestModal')">Close Modal</button>
+      <Modal name="TestModal">
+          <h1>This is a test modal</h1>
+          <p>
+              lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum
+              lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum lorum
+              lorum lorum
+          </p>
+      </Modal>
+    </main>
 </template>
 
 <style scoped>
